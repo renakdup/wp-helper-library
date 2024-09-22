@@ -5,9 +5,9 @@
 - Enable SMTP and mails error collections to logs.
 
 Roadmap
-- [] disable code editor
-- [] disable plugin upload snippet
-- [] disable emoji 
-- [] disable rss and other links
-- [] disable upgrade??? do via cron
-- [] disable comments.
+- [ ] disable code editor
+- [ ] disable plugin upload snippet
+- [ ] disable emoji 
+- [ ] disable rss and other links
+- [ ] disable upgrade??? do via cron
+- [ ] disable comments.
