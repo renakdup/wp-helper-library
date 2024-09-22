@@ -1,10 +1,15 @@
-# wp-helper-library
+# WP Helper Library
 
-## Supports
+## Implemented
 - Autologin as super admin or admin (prefer high capability).
 - Enable SMTP and mails error collections to logs.
+- `get_template()` method.
+- `check_important_activated_plugins_or_show_admin_message()` method.
+- SPL default autoloader method.
+- glob autoloader.
 
 ## Roadmap
+- [ ] Force `HTTPS`.
 - [ ] add disable transient
 - [ ] delete transients via SQL
 - [ ] add installing via composer
