@@ -1,24 +1,30 @@
 # WP Helper Library
 
-## Implemented
-- Autologin as super admin or admin (prefer high capability).
-- Enable SMTP and mails error collections to logs.
-- `get_template()` method.
-- `check_important_activated_plugins_or_show_admin_message()` method.
-- SPL default autoloader method.
-- glob autoloader.
-
 ## Roadmap
+- [x] Autologin as super admin or admin (prefer high capability).
+- [x] Enable SMTP and mails error collections to logs.
+- [x] `get_template()` method.
+- [x] `check_important_activated_plugins_or_show_admin_message()` method.
+- [x] SPL default autoloader method.
+- [x] glob autoloader.
 - [ ] Force `HTTPS`.
 - [ ] add disable transient
 - [ ] delete transients via SQL
 - [ ] add installing via composer
 - [ ] disable code editor
 - [ ] disable plugin upload snippet
-- [ ] disable emoji 
+- [x] disable emoji 
+- [x] disable XMLRPC
 - [ ] disable rss and other links
 - [ ] disable upgrade??? do via cron
-- [ ] disable comments.
+- [x] disable comments.
+- [ ] create WPCG (WordPress code generator)
+- [ ] create CPT
+- [ ] create taxonomy
+- [ ] create RestEndpoint
+- [ ] create Cron job
+- [ ] create Options page
+- [ ] create WP LIST Table
 
 ## The future ideas  
 

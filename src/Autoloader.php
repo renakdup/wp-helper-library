@@ -2,7 +2,7 @@
 
 namespace Renakdup\WPHelperLibrary;
 
-class Autoload {
+class Autoloader {
 	/**
 	 * @param string $pattern example: __DIR__ . '/auto-include/*.php'
 	 *
