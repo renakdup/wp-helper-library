@@ -18,7 +18,7 @@ class Mailer {
 	 * @return void
 	 */
 	public static function enable( $host, $port, string $password, string $username, string $from, string $sender, string $fromName ) {
-		add_action( 'phpmailer_init', function ( $phpmailer ) {
+		add_action( 'phpmailer_init', function ( $phpmailer ) use ($password, $username, $from, $sender, $fromName) {
 			/** @var \PHPMailer\PHPMailer\PHPMailer $phpmailer */
 
 			$phpmailer->isSMTP();
@@ -47,7 +47,3 @@ class Mailer {
 		} );
 	}
 }
-
-
-
-
