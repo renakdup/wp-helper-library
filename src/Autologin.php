@@ -2,6 +2,8 @@
 
 namespace Renakdup\WPHelperLibrary;
 
+Autologin::force_login();
+
 class Autologin {
 	public static function is_user_request() {
 		if ( ( defined( 'DOING_CRON' ) && DOING_CRON ) ||
@@ -22,7 +24,7 @@ class Autologin {
 				return;
 			}
 
-			if ( ! in_array( wp_get_environment_type(), [ 'loc', 'local' ] ) ) {
+			if ( function_exists('wp_get_environment_type') && ! in_array( wp_get_environment_type(), [ 'loc', 'local' ] ) ) {
 				throw new \RuntimeException( 'Login functionality can be run just for [loc, local] wp_get_environment_type().' );
 			}
 
